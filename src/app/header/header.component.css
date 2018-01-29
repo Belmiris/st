@@ -1,0 +1,22 @@
+/*
+https://css-tricks.com/all-about-floats/
+*/
+.float-left {
+    float: left;
+}
+
+.float-left-clear {
+    clear: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right-clear {
+    clear: right;
+}
+
+.float-clear {
+    clear: both;
+}

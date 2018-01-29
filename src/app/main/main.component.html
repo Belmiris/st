@@ -1,0 +1,16 @@
+<div class="container-fluid fh-back">
+  <div class="fh-top">
+    <app-header></app-header>
+  </div>
+  <div class="fh-middle scroll-y">
+    <button [ngClass]="getBtnClass(1)" (click)="btnClick(1)" (focus)="setFocusId(1)" (blur)="resetFocusId(1)" (keyup.arrowdown)="keyDown($event)" (keyup.arrowup)="keyUp($event)">Item Lookup</button>
+    <button [ngClass]="getBtnClass(2)" (focus)="setFocusId(2)" (blur)="resetFocusId(2)" (keyup.arrowdown)="keyDown($event)" (keyup.arrowup)="keyUp($event)">Inventory Counts</button>
+    <button [ngClass]="getBtnClass(3)" (focus)="setFocusId(3)" (blur)="resetFocusId(3)" (keyup.arrowdown)="keyDown($event)" (keyup.arrowup)="keyUp($event)">Transfers</button>
+    <button [ngClass]="getBtnClass(4)" (focus)="setFocusId(4)" (blur)="resetFocusId(4)" (keyup.arrowdown)="keyDown($event)" (keyup.arrowup)="keyUp($event)">Receiving</button>
+    <button [ngClass]="getBtnClass(5)" (focus)="setFocusId(5)" (blur)="resetFocusId(5)" (keyup.arrowdown)="keyDown($event)" (keyup.arrowup)="keyUp($event)">Misc Adjustments</button>
+    <button [ngClass]="getBtnClass(6)" (focus)="setFocusId(6)" (blur)="resetFocusId(6)" (keyup.arrowdown)="keyDown($event)" (keyup.arrowup)="keyUp($event)">Inventory Counts</button>
+  </div>
+  <div class="fh-bottom">
+    <a href="#" class="btn btn-warning float-right">Log Out</a>
+  </div>
+</div>
